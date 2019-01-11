@@ -1,0 +1,26 @@
+/* pages/template/temp.wxss */
+
+.headerContainer{
+  margin-top: 30rpx;
+}
+.headerContainer image{
+  margin-left:10rpx;
+  height: 50rpx;
+  width: 50rpx;
+  vertical-align: middle;
+}
+.headerContainer text{
+  margin-left:10rpx;
+  font-size: 32rpx;
+  vertical-align: middle
+}
+.title{
+  margin-left: 10rpx;
+  font-weight: 700;
+}
+.mainPic{
+  width: 100%;
+}
+.mainTxt{
+  text-indent: 32rpx
+}

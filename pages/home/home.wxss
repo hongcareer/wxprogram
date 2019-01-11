@@ -1,0 +1,24 @@
+/* pages/home/home.wxss *//* pages/index/index.wxss */
+page{
+  height: 100%;
+  background-color: darkred;
+}
+.pageContainer{
+  background-color: darkred;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.pic{
+    margin:100rpx 0;
+    width: 200rpx;
+    height:200rpx;
+    border-radius: 50%;
+  }
+  .btn{
+    width: 200rpx;
+    margin: 100rpx 0;
+    border: 1rpx solid black;
+    font-size: 34rpx;
+    text-align: center
+  }

@@ -1,0 +1,30 @@
+/* pages/detail/detail.wxss */
+.title{
+  font-size: 60rpx;
+  margin-left: 20rpx;
+}
+.mainTxt{
+  color: #333;
+  text-indent: 72rpx;
+  line-height: 73rpx;
+}
+.col_sha{
+  overflow: hidden;
+  position: relative;
+}
+.col_sha image{
+  width:120rpx;
+  height: 120rpx;
+  float: right;
+  margin-left: 20rpx;
+}
+.col_sha .line{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 90%;
+  height: 1rpx;
+  background: red;
+  z-index: -1;
+
+}

@@ -1,0 +1,8 @@
+<!--pages/index/index.wxml-->
+<view class="pageContainer">
+  <image src='/images/index/cart.jpg' class="pic"></image>
+  <text>santiangel</text>
+  <view class="btn">
+    <text bindtap='goStart'>开始体验</text>
+  </view>
+</view>

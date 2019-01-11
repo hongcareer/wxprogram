@@ -1,0 +1,42 @@
+/* pages/template/temp.wxss */
+.tempContainer{
+  display: flex;
+  flex-direction: column;
+}
+.headerContainer{
+  margin-top: 30rpx;
+}
+.headerContainer image{
+  margin-left:10rpx;
+  height: 50rpx;
+  width: 50rpx;
+  vertical-align: middle;
+}
+.headerContainer text{
+  margin-left:10rpx;
+  font-size: 32rpx;
+  vertical-align: middle
+}
+.title{
+  margin-left: 10rpx;
+  font-weight: 700;
+}
+.mainPic{
+  width: 100%;
+}
+.mainTxt{
+  text-indent: 32rpx
+}
+.footContainer{
+  margin-left: 10rpx
+}
+.footContainer image{
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle
+}
+.footContainer text{
+  margin-right: 20rpx;
+  vertical-align: middle;
+  font-size: 28rpx;
+}

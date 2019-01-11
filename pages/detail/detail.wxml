@@ -1,0 +1,21 @@
+<!--pages/template/temp.wxml-->
+<view class="tempContainer">
+<image src="{{detailData.headImgSrc}}" class="mainPic"></image>
+  <view class="headerContainer">
+    <image src="{{detailData.avatar}}"></image>
+    <text>{{detailData.author}}</text>
+    <text>发表于</text>
+    <text>{{detailData.dataTime}}</text>
+  </view>
+  <text class="title">{{detailData.title}}</text>
+  <view class="col_sha">
+    <image src="/images/icon/share-anti.png"></image>
+    <image src='{{isCollected?"/images/icon/collection.png":"/images/icon/collection-anti.png"}}' bindtap="changeCollectState"></image>
+    <view class="line"></view>
+  </view>
+
+  <view>
+     <text class="mainTxt">{{detailData.detail_content}}</text>
+  </view>
+</view>
+
